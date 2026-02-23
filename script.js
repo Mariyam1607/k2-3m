@@ -3,6 +3,7 @@
 const seasonButtons = document.querySelectorAll(".seasons button");
 const monthsSeason = document.querySelector(".months");
 
+
 const date = {
     winter: {
         months: ["Декабрь", "Январь", "Февраль"],
@@ -40,36 +41,3 @@ seasonButtons.forEach(button => {
         })
     })
 })
-
-// function seasonMonths (seasonName) {
-//
-//     const season = date [seasonName];
-//     document.body.style.backgroundImage = `url(${season.bg})`
-//
-//     monthsSeason.innerHTML = ""
-//
-//     season.months.forEach(function (month){
-//         const div = document.createElement("div")
-//         div.classList.add("month")
-//         div.textContent = month;
-//         div.style.backgroundColor = season.color;
-//
-//         monthsSeason.appendChild(div);
-//     })
-// }
-//
-// document.getElementById("winter").addEventListener("click", function() {
-//     seasonMonths("winter");
-// });
-//
-// document.getElementById("spring").addEventListener("click", function() {
-//     seasonMonths("spring");
-// });
-//
-// document.getElementById("summer").addEventListener("click", function() {
-//     seasonMonths("summer");
-// });
-//
-// document.getElementById("autumn").addEventListener("click", function() {
-//     seasonMonths("autumn");
-// });
