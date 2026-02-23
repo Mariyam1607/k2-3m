@@ -40,4 +40,4 @@ seasonButtons.forEach(button => {
             monthsSeason.appendChild(monthBtn)
         })
     })
-})
+});
